@@ -351,6 +351,41 @@ footer ul li a{
     margin-top: 2rem;
 }
 
+.projects-page{
+    min-height: 100vh;
+}
+
+#home-btn{
+    position: fixed;
+    top: 10rem;
+    left: 2rem;
+    z-index: 1000;
+}
+
+.project-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    min-height: 100vh;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    box-sizing: border-box;
+}
+
+.project-video{
+    min-height: 200px;
+    background: red;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 @media(max-width:1280px){
     header{
         padding: 1rem 2rem;
