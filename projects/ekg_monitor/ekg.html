@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EKG Monitor</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" type="image/png" href="../../sparkly-heart.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+  </head>
+  <body>
+    
+    <div class = "projects-page">
+      <a href="../../index.html">
+        <button class = "btn" id = "home-btn">
+          <text>Home</text>
+          <i class="fa-regular fa-house"></i>
+        </button>
+      </a>
+
+      <div class="project-content">
+
+        <h2 class="section-title">EKG Monitor</h2>
+
+        <div class="project-image">
+          <img src="ekg_circuit.png" alt="not display">
+        </div>
+
+        <p class="project-info"> I built a multistage circuit using an instrumentation amplifier (INA126P) and a bandpass filter to analyze and display heartbeat signals. I also included an isolator chip for some extra safety. I learned a lot about troubleshooting in the context of signal processing, as well as analyzing circuits through techniques like drawing Bode plots. The most heartwrenching part of this project was actually connecting the electrodes to myself...but boy was it a relief that my heart kept beating (and that I could see the signals on my laptop!)
+        </p>
+          
+        <div class="project-image">
+            <img src="ekg_waveforms.png" alt="not display">
+        </div>
+
+        <p class="project-info"> The measured heartbeats from our circuit when I attached the electrodes!
+        </p>
+
+        <div class="keywords">
+          <text class="keyword-pill">signal processing</text>
+          <text class="keyword-pill">amplifier</text>
+          <text class="keyword-pill">bandpass filter</text>
+          <text class="keyword-pill">bode plots</text>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="project-nav">
+      <div class="project-nav-div">
+        <a href="../ac_dc/ac_dc.html">
+            <button class="btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                <p>AC-DC Converter</p>
+              </button>
+        </a>
+
+        <a href="../useless_box/useless_box.html">
+            <button class="btn">
+                <i class="fa-solid fa-arrow-right"></i>
+                <p>Useless Box</p>
+              </button>
+        </a>
+      </div>
+    </footer>
+  </body>

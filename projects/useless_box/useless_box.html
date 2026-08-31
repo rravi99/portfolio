@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Useless Box</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" type="image/png" href="../../sparkly-heart.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+  </head>
+  <body>
+    
+    <div class = "projects-page">
+      <a href="../../index.html">
+        <button class = "btn" id = "home-btn">
+          <text>Home</text>
+          <i class="fa-regular fa-house"></i>
+        </button>
+      </a>
+
+      <div class="project-content">
+
+        <h2 class="section-title">Useless Box</h2>
+
+        <div class="project-image">
+          <img src="useless_top.png" alt="not display">
+        </div>
+
+        <p class="project-info"> I created a box where every time a switch was flipped, the arm would rise, open a lid, and flick the switch back to the original position. Then, it would reverse direction (driven by a motor), and lower back into the box where its motion was halted by a limit switch. This was a lot of fun to build! I added an Arduino to programmatically the motor, and added code to give the box some personality—with the inclusion of some pauses and some pulse width modulation, my box ended up quite mischievous. Demo below! 
+        </p>
+          
+        <div class="project-image">
+            <img src="useless_side.jpg" alt="not display">
+        </div>
+
+        <div class="project-image">
+            <img src="useless_internals.png" alt="not display">
+        </div>
+
+        <div class = "project-video">
+            <video src="with_tricks.MOV" controls alt="video not loading" ></video>
+        </div>
+
+        <div class="keywords">
+          <text class="keyword-pill">motors</text>
+          <text class="keyword-pill">switches</text>
+          <text class="keyword-pill">arduino</text>
+          <text class="keyword-pill">pulse width modulation</text>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="project-nav">
+      <div class="project-nav-div">
+        <a href="../ekg_monitor/ekg.html">
+            <button class="btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                <p>EKG Monitor</p>
+              </button>
+        </a>
+
+        <a href="../led_matrix/led_matrix.html">
+            <button class="btn">
+                <i class="fa-solid fa-arrow-right"></i>
+                <p>LED Matrix</p>
+              </button>
+        </a>
+      </div>
+    </footer>
+  </body>

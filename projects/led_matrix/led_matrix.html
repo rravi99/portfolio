@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LED Matrix</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" type="image/png" href="../../sparkly-heart.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+  </head>
+  <body>
+    
+    <div class = "projects-page">
+      <a href="../../index.html">
+        <button class = "btn" id = "home-btn">
+          <text>Home</text>
+          <i class="fa-regular fa-house"></i>
+        </button>
+      </a>
+
+      <div class="project-content">
+
+        <h2 class="section-title">LED Matrix</h2>
+
+        <div class="project-image">
+          <img src="led_build.png" alt="not display">
+        </div>
+
+        <p class="project-info"> With a partner, I created a 8x8 dot-matrix display using LED multiplexing. I also incorporated an Arduino, using a pMOS transistor to drive the appropriate amount of current to the rest of the circuit. The goal was to use the Arduino to control the LEDs, and create a fun interactive display. We added an audio jack to route audio from another device, an Adafruit audio amplifier connected to a small speaker, and a biasing circuit. We routed this audio to our Arduino's ADC, and wrote code to turn on LEDs in response to the frequency of whatever song we chose. I learned a lot about analyzing audio, with tools like an AD2 (Analog Discovery 2), and how to leverage Arduino FFT libraries to programmatically achieve cool-audio based outputs. The library often didn't work as expected, so I did a lot of debugging work with both the hardware and software. There were lots of minor things that initially tripped us up, from outdated library code to sneaky solder joints. I also learned about circuit design, and how to bring together lots of individual components. I hope you enjoy the demo (and sing along)!
+        </p>
+          
+        <div class="project-image">
+            <img src="led_speaker.png" alt="not display">
+        </div>
+
+        <div class = "project-video">
+            <video src="matrix_demo.MOV" controls alt="video not loading" ></video>
+        </div>
+
+        <div class="keywords">
+          <text class="keyword-pill">AD2</text>
+          <text class="keyword-pill">arduino</text>
+          <text class="keyword-pill">circuit design</text>
+          <text class="keyword-pill">hardware/software</text>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="project-nav">
+      <div class="project-nav-div">
+        <a href="../useless_box/useless_box.html">
+            <button class="btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                <p>Useless Box</p>
+              </button>
+        </a>
+
+        <a href="../network_analysis/network.html">
+            <button class="btn">
+                <i class="fa-solid fa-arrow-right"></i>
+                <p>Censorship Research</p>
+              </button>
+        </a>
+      </div>
+    </footer>
+  </body>
