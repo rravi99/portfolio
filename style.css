@@ -397,15 +397,45 @@ footer ul li a{
     box-sizing: border-box;
 }
 
+.project-image{
+    width: 400px;
+    height: auto;
+}
+
+.project-image img{
+    width: 100%;
+    height: 100%;
+}
+
 .project-video{
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-bottom: 2rem;
 }
 
 video {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.project-info{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: large;
+    color: grey;
+}
+
+.keyword-pill {
+    border-radius: 3rem;
+    padding: 0.5rem;
+    border: 2px solid  #f8d0e8;;
+    background-color:  #f8d0e8;;
+    color: grey;
+    font-weight: 500;
+    text-wrap: nowrap;
 }
 
 @media(max-width:1280px){

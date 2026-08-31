@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Karaoke Machine</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="./favicon.icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+  </head>
+  <body>
+    
+    <div class = "projects-page">
+      <a href="../../index.html">
+        <button class = "btn" id = "home-btn">
+          <text>Home</text>
+          <i class="fa-regular fa-house"></i>
+        </button>
+      </a>
+
+      <div class="project-content">
+
+        <h2 class="section-title">Full System</h2>
+
+        <div class="project-image">
+          <img src="mango_pi.jpg" alt="not display">
+        </div>
+
+        <p class="project-info">  I built a computer system on a Mango Pi board (Risc-V) in the class CS107e: Computer Systems from the Ground Up. We started by directly working in assembly, and then moved up to embedded systems programming with C. I fully implemented everything from printf to heap memory allocation (malloc), graphics, a PS/2 keyboard driver, a double-buffered graphics display, and the shell. At the end, with all the code imported to my Mango Pi, you could directly interact with a console, type in and run shell commands, and see output–all through code I wrote! This was such an incredibly rewarding end to months of work, and made me really understand the internals and function of my system. In this class, I got lots of embedded system and bare metal programming experience, including working with the Mango Pi board, and some simple circuits. I truly learned what goes on behind the scenes with C (shoutout compiler optimization magic) and how to debug gnarly bugs even without unit tests and printf…
+        </p>
+          
+        <div class="keywords">
+          <text class="keyword-pill">embedded</text>
+          <text class="keyword-pill">assembly</text>
+          <text class="keyword-pill">C</text>
+          <text class="keyword-pill">circuits</text>
+          <text class="keyword-pill">full system</text>
+          <text class="keyword-pill">bare metal</text>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="project-nav">
+      <div class="project-nav-div">
+
+        <a href="../karaoke/karaoke.html">
+            <button class="btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                <p>Karaoke Machine</p>
+              </button>
+        </a>
+
+        <a href="../ac_dc/ac_dc.html">
+            <button class="btn">
+                <i class="fa-solid fa-arrow-right"></i>
+                <p>AC-DC Converter</p>
+              </button>
+        </a>
+
+      </div>
+    </footer>
+  </body>

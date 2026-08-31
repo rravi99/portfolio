@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Karaoke Machine</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" type="image/png" href="../../sparkly-heart.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+  </head>
+  <body>
+    
+    <div class = "projects-page">
+      <a href="../../index.html">
+        <button class = "btn" id = "home-btn">
+          <text>Home</text>
+          <i class="fa-regular fa-house"></i>
+        </button>
+      </a>
+
+      <div class="project-content">
+
+        <h2 class="section-title">AC-DC Converter</h2>
+
+        <div class="project-image">
+          <img src="ac_dc_front.jpg" alt="not display">
+        </div>
+
+        <p class="project-info"> 
+            I analyzed and built a variable output AC-DC voltage convertor on a PCB. I gradually built up the functionality and robustness of the convertor. The basic circuit used a wall outlet transformer and a full-wave rectifier built with diodes to convert from AC to DC. Then, I also used a capacitor and Zener diode to smooth out voltage signal fluctuations, included a potentiometer for variable output voltage. Finally, I added a voltage buffer to enable the circuit to connect to various loads with minimal output voltage degradation. I learned a lot about analyzing circuits and increasing their robustness through slowly making my convertor better! 
+        </p>
+
+        <div class="project-image">
+            <img src="ac_dc_side.jpg" alt="not display">
+          </div>
+          
+        <div class="keywords">
+          <text class="keyword-pill">capacitors</text>
+          <text class="keyword-pill">transistors</text>
+          <text class="keyword-pill">diodes</text>
+          <text class="keyword-pill">resistors</text>
+          <text class="keyword-pill">circuit design</text>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="project-nav">
+      <div class="project-nav-div">
+
+        <a href="../full_system/system.html">
+            <button class="btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                <p>Full System</p>
+              </button>
+        </a>
+
+        <a href="../ekg_monitor/ekg.html">
+            <button class="btn">
+                <i class="fa-solid fa-arrow-right"></i>
+                <p>EKG Monitor</p>
+              </button>
+        </a>
+
+      </div>
+    </footer>
+  </body>

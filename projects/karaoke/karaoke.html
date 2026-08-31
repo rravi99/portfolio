@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Karaoke Machine</title>
     <link rel="stylesheet" href="../../style.css">
-    <link rel="icon" href="./favicon.icon" type="image/x-icon">
+    <link rel="icon" type="image/png" href="../../sparkly-heart.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
   </head>
   <body>
     
     <div class = "projects-page">
-
       <a href="../../index.html">
         <button class = "btn" id = "home-btn">
           <text>Home</text>
@@ -21,24 +20,39 @@
       </a>
 
       <div class="project-content">
-        <p>words</p>
+
+        <h2 class="section-title">Karaoke Machine</h2>
 
         <div class="project-image">
-          <img class="project-image" src="../happy cat.jpg" alt="not display">
+          <img src="setup_pic.png" alt="not display">
         </div>
 
+        <p class="project-info">I created a karaoke machine with a partner, building with a Mango Pi board! The user can select a song from a menu to display lyrics synced with a backing track. For each song, the backing track audio plays through stereo speakers (I2S) and displays time-synced lyrics on a monitor. Users can switch between songs, and also customize the color scheme (to whatever most inspires their inner pop star…) While the demo includes five 10-second song clips, our program is able to load full-length songs. Song loading occurs during compilation, so user interaction with the interface is lag-free! I worked lots with memory, interrupts, and graphics! I also worked on integrating the speaker and audio processing. Of course, I also did lots of user testing (aka singing…very loudly). I learned a lot about integration, working with both hardware and software, modular design, and debugging. 
+        </p>
+          
         <div class = "project-video">
           <video src="karaoke.mp4" controls alt="video not loading" ></video>
         </div>
+
+        <div class="keywords">
+          <text class="keyword-pill">embedded</text>
+          <text class="keyword-pill">C</text>
+          <text class="keyword-pill">interrupts</text>
+          <text class="keyword-pill">graphics</text>
+          <text class="keyword-pill">memory</text>
+        </div>
       </div>
+
     </div>
 
     <footer class="project-nav">
       <div class="project-nav-div">
-        <button class="btn">
-          <i class="fa-solid fa-arrow-right"></i>
-          <p>Embedded Full System</p>
-        </button>
+        <a href="../full_system/system.html">
+          <button class="btn">
+              <i class="fa-solid fa-arrow-right"></i>
+              <p>Full System</p>
+            </button>
+      </a>
       </div>
     </footer>
   </body>
