@@ -8,6 +8,10 @@
     list-style: none;
 }
 
+body{
+    background-color: #fefefa;
+}
+
 header{
     position: fixed;
     top: 1rem;
@@ -16,7 +20,7 @@ header{
     display: flex;
     align-items: center;
     gap: 5rem;
-    background-color: rgba(0,0,0,0.8);
+    background-color:  #D67AB1;
     backdrop-filter: blur(8px);
     color: white;
     padding: 0.5rem 1.5rem;
@@ -58,7 +62,7 @@ li a::before{
     top: 25px;
     border-radius: 1rem;
     transition: 0.3s ease-in-out;
-    background: linear-gradient(to right, white, black);
+    background: linear-gradient(to right, #EDC9FF, #C0CDB6);
 }
 
 li a:hover::before{
@@ -75,11 +79,11 @@ li a:hover::before{
     cursor: pointer;
     text-wrap: nowrap;
     transition: 0.3s ease-in-out;
-    background: linear-gradient(to right, white, black);
+    background: linear-gradient(to right, #9a59ba, #738466);
 }
 
 .visit-btn:hover{
-    background: linear-gradient(to right, black, white);
+    background: linear-gradient(to right,  #738466, #9a59ba);
     transform: scale(1.03);
 }
 
@@ -113,6 +117,10 @@ section{
     border-radius: 50%;
  }
 
+ #name {
+ 
+ }
+
  .info-box{
     display: flex;
     flex-direction: column;
@@ -134,7 +142,7 @@ section{
  }
 
  .info-box span{
-    background: linear-gradient(to right, black, white);
+    background:  linear-gradient(to right, #9a59ba, #738466);
     background-clip: text;
     color: transparent;
     font-size: 2rem;
@@ -148,7 +156,9 @@ section{
  .btn {
     border-radius: 3rem;
     padding: 0.5rem 1.5rem;
-    border: 2px solid black;
+    border: 2px solid  #D67AB1;
+    background-color:  #D67AB1;
+    color: white;
     cursor: pointer;
     font-weight: 500;
     text-wrap: nowrap;
@@ -156,8 +166,8 @@ section{
  }
 
  .btn:hover{
-    background-color: black;
-    color: white;
+    background-color:  white;
+    color: #D67AB1;
  }
 
  .socials{
@@ -173,6 +183,14 @@ section{
 
  .socials i:hover{
     transform: scale(1.1);
+ }
+
+ #github {
+    color: #5f2792;
+ }
+
+ #linkedin {
+    color: #0f77ac;
  }
 
  .section-title{
@@ -236,11 +254,11 @@ section{
  }
 
  ::-webkit-scrollbar-track{
-    background-color: lightgrey;
+    background-color: #fbf3ff;
  }
 
  ::-webkit-scrollbar-thumb{
-    background: linear-gradient(to bottom, black, white);
+    background: linear-gradient(to bottom, #9a59ba, #738466);
  }
 
  .projects-grid{
@@ -257,14 +275,15 @@ section{
     justify-content: center;
     text-align: center;
     gap: 1.5rem;
-    border: 2px solid black;
+    border: 2px solid #D67AB1;
+    color: black;
     border-radius: 3rem;
     cursor: pointer;
     transition: 0.3s ease-in-out;
  }
  
  .project-card:hover{
-    background-color: black;
+    background-color: #D67AB1;
     color: white;
     transform: translateY(-10px)scale(1.02);
  }
@@ -368,16 +387,16 @@ footer ul li a{
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 2rem;
     min-height: 100vh;
+    margin-top: 20rem;
     padding-left: 10rem;
     padding-right: 10rem;
     box-sizing: border-box;
 }
 
 .project-video{
-    min-height: 200px;
-    background: red;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
 video {
